@@ -11,7 +11,7 @@ export default function Pricing() {
         month.
       </p>
     </div>
-    <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+    <div className="space-y-8 sm:gap-6 xl:gap-10 lg:flex justify-center">
       {/* Pricing Card */}
       <div className="flex flex-col p-6 mx-auto max-w-lg text-center bg-gradient-to-r from-gray-600 to-gray-800 rounded-lg border-gray-600 xl:p-8 text-white hover:scale-105 transition-all duration-300 ease-in-out">
         <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
@@ -76,7 +76,7 @@ export default function Pricing() {
         </div>
 
         
-        <ul role="list" className="mb-8 space-y-4 text-left">
+        <ul role="list" className="mb-8 space-y-4 text-left mt-1">
           <li className="flex items-center space-x-3">
             <svg
               className="flex-shrink-0 w-5 h-5 text-green-400"
