@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face { 
+    font-family: "All Round Gothic";
+    font-style: normal;
+    font-weight: 400;
+    src: 
+      url(/allroundgothic-demi.woff2) format("woff2");
+}
+
+.base-font {
+    font-family: "All Round Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
