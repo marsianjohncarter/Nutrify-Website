@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+p {
+  font-family: "Rockwell";
+  font-size: large;
+} 
 
 @font-face { 
     font-family: "All Round Gothic";
@@ -12,7 +16,7 @@
 }
 
 .base-font {
-    font-family: "All Round Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "All Round Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
 }
 
 .embla {
