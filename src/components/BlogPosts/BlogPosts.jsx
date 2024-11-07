@@ -1,5 +1,6 @@
 import React from "react";
 import { marked } from "marked";
+import { Helmet } from 'react-helmet';
 
 export default function BlogPosts({ blogPosts }) {
     return (
