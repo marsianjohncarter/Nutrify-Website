@@ -122,8 +122,6 @@
 }
 
 
-
-
 #blog p {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -131,5 +129,12 @@
     margin-bottom: 1rem;
     margin-top: 1rem;
     color: #333;
-    font-family: "Verdana", Helvetica, Arial, sans-serif;
+    font-family: "Rockwell", "Courier New", "Courier", monospace;
+    font-size: large;
+}
+
+#blog ul {
+    font-family: "Rockwell", "Courier New", "Courier", monospace;
+    font-size: large;
+    list-style-type: circle;
 }

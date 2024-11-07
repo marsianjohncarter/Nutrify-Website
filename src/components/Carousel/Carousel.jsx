@@ -9,25 +9,25 @@ function Carousel() {
 
     const slides = [
         {
-            title: "We invest in the worlds potential",
+            title: "Use your camera to identify foods.",
             description:
                 "Here at Nutrify we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.",
             image: "/01-nutrify-camera-preview-screenshot.png",
         },
         {
-            title: "Empowering the Future",
+            title: "Identify more than 510 whole foods.",
             description:
                 "We support companies that are making a difference in tech and innovation.",
             image: "/02-nutrify-photo-taken-of-pineapple-screenshot.png",
         },
         {
-            title: "With the newest technology",
+            title: "And learn about their nutrition.",
             description:
                 "We support companies that are making a difference in tech and innovation.",
             image: "/03-nutrify-pineapple-nutrition-information.png",
         },
         {
-            title: "With the newest technology",
+            title: "Set calorie and macronutrient goals.",
             description:
                 "We support companies that are making a difference in tech and innovation.",
             image: "00-nutrify-summary-screenshot.png",
