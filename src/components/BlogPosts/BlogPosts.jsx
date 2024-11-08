@@ -17,7 +17,7 @@ export default function BlogPosts({ blogPosts }) {
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {blogPosts.map((post, index) => (
-                    <a href={`/launch/${post.id}`}>
+                    <a key={index} href={`/launch/${post.id}`}>
                         <div className="p-4 max-w-sm" key={index}>
                             <div className="flex rounded-lg h-full bg-gray-800 p-8 flex-col">
                                 <div className="flex items-center mb-3">

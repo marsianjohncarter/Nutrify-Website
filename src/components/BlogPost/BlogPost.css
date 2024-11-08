@@ -121,6 +121,17 @@
     border-radius: 10px;
 }
 
+#blog video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 85%;
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
 
 #blog p {
     font-size: 1rem;
