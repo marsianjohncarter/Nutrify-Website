@@ -11,10 +11,9 @@ export default function BlogPost({ blogPosts }) {
     const blogPost = blogPosts.find((post) => post.id === parseInt(id));
     const [markdownContent, setMarkdownContent] = useState("");
 
-
     useEffect(() => {
         // Fetch the markdown file and set the markdown content
-        fetch("/blog-post-1.md")
+        fetch(`${blogPost.file}.md`)
             .then((response) => response.text())
             .then((text) => {
                 setMarkdownContent(text);

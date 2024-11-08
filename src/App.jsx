@@ -17,9 +17,21 @@ const navLinks = [
 const blogPosts = [
     {
         id: 0,
-        title: "Nutrify Website Release",
-        date: "October 31, 2024",
-        link: "/blog-post-1",
+        title: "Nutrify Release",
+        date: "February 12, 2024",
+        file: "/blog-post-1",
+    },
+    {
+        id: 1,
+        title: "Introducing Nutrify 1.2: Calorie and Macronutrient Goals, Breakdowns and 57 New Foods",
+        date: "May 29, 2024",
+        file: "/blog-post-2",
+    },
+    {
+        id: 2,
+        title: "Introducing Nutrify 1.2.3: Whole Food Streaks, Homescreen Widgets, Quick Summaries and 41 New Foods",
+        date: "November 04, 2024",
+        file: "/blog-post-3",
     },
 ];
 
